@@ -1,10 +1,16 @@
+import Title from "./Title";
+import Count from "./Count";
+import ResetButton from "./ResetButton";
+import CountButtons from "./CountButtons";
+
 function App() {
   return (
     <main>
       <div>
-        <h1>Fancy Counter</h1>
-        <p>0</p>
-        <button>Reset</button>
+        <Title />
+        <Count />
+        <ResetButton />
+        <CountButtons />
       </div>
     </main>
   );
