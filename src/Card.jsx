@@ -1,7 +1,7 @@
 import Title from "./Title";
 import Count from "./Count";
 import ResetButton from "./ResetButton";
-import CountButtons from "./CountButtons";
+import CountButtons from "./ButtonContainer";
 import { useState } from "react";
 
 export default function Card() {
