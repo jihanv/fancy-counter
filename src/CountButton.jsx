@@ -10,6 +10,10 @@ export default function CountButton({ setCount, type }) {
         }
         return prev - 1;
       } else {
+        const newCount = prev + 1;
+        if (newCount > 5) {
+          return 5;
+        }
         return prev + 1;
       }
     });
